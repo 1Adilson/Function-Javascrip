@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+nav {
+    border: none;
+    flex-flow: row wrap;
+    background-color: #fffafa;
+    height: 300px;
+}
+
+
+/*Logo da merca*/
+.logo {
+    display: flex;
+    flex: 50%;
+    padding: 10px;
+    margin-left: 60px;
+    justify-content: center;
+    
+}
+
+/*Botões maiores*/
+.importantes{
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+}
+
+
+.importantes ul{
+    float: left;
+    margin-top: 8px;
+    margin-right: 15px;
+    display: inline-flex;
+
+}
+
+.importantes li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+
+}
+
+.importantes a {
+    color: #67087b;    
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 2px solid #67087b;
+    padding: 5px;
+}  
+
+.importantes a:hover {
+    color: white;    
+    background-color: #011627;
+    border: 2px solid #011627;
+    transition: all 1s;
+    font-size: 20px;
+    border-width: 15px;
+}
+
+/*botoes menores*/
+.link {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+}
+
+.link ul{
+    float: left;
+    margin-top: 8px;
+    margin-right: 15px;
+    display: inline-flex;
+}
+
+.link li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    list-style: none;
+
+}
+
+a {
+    color: #67087b;    
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}  
+
+a:hover {  
+    border-top : 10px solid #67087b;
+    transition: all  1s;
+}
+
+
+/*Corpo do site*/
+body{
+    background-color: #67087b;
+}
+
+
+/*Texto Maior*/
+.texto{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 2px;
+    font-size: 30px;
+    flex-flow: column ;
+}
+.Texto a {
+    color: #011627;
+    background-color: aliceblue;    
+    text-decoration: none;
+    border: 8px solid white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    width: 200px;
+}  
+
+.texto a:hover {
+    color: white;    
+    background-color: #011627;
+    border: 2px solid #011627;
+    transition: all 1s;
+    border-width: 15px;
+}
+
+/*Texto Medio*/
+.textob{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 2px;
+    font-size: 60px;
+    flex-flow: column ;
+}
+
+/*Texto pequeno*/
+.textoc{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: flex-start;
+    padding: 2px;
+    font-size: 19px;
+    flex-flow: column ;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 768px) {
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+nav {
+border: none;
+flex-flow: row wrap;
+background-color: #fffafa;
+height: 130px;
+}
+
+/*Logo da marca*/
+.logo {
+display: flex;
+flex: 50%;
+justify-content: flex-start;
+padding: 10px;
+margin-left: 95px;
+ 
+}
+
+/*Botões maiores*/
+.importantes{
+display: flex;
+flex: 50%;
+justify-content: flex-end;
+}
+
+.importantes ul{
+float: left;
+margin-top: 8px;
+margin-right: 15px;
+display: inline-flex;
+list-style: none;
+}
+
+.importantes li{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+list-style: none;
+margin-top: -100px;
+}
+
+.importantes a {
+color: #67087b;    
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+border: 2px solid #67087b;
+padding: 10px;
+}  
+
+.importantes a:hover {
+color: white;    
+background-color: #011627;
+border: 2px solid #011627;
+transition: all 1s;
+font-size: 20px;
+border-width: 15px;
+}
+
+/*botoes menores*/
+.link {
+display: flex;
+flex: 50%;
+justify-content: flex-end;
+}
+
+.link ul{
+float: left;
+margin-top: 8px;
+margin-right: 600px;
+display: inline-flex;
+list-style: none;
+}
+
+.link li {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+list-style: none;
+margin-top: -100px;
+}
+
+
+button {
+color: #67087b;    
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+text-align: center;
+position: relative;
+top: 35%;
+left: 35%;
+width: 30%;
+font-family: 'Bebas Neue', cursive;
+font-size: 30px;
+background-color: #fffafa;
+}  
+
+button:hover{
+    color: white;
+    background-color: #011627;
+    transition: all 1s;
+}
+
+/*Corpo do site*/
+body{
+background-color: #67087b;
+}
+
+
+/*Texto maior*/
+.texto{
+font-family: 'Bebas Neue', cursive;
+color: white;
+text-align: center;
+justify-content: flex-start;
+padding: 2px;
+font-size: 80px;
+flex-flow: column ;
+}
+
+.Texto a {
+color: #011627;
+background-color: white;    
+text-decoration: none;
+border: 8px solid white;
+font-size: 30px;
+font-family: 'Bebas Neue', cursive;
+width: 200px;
+}  
+
+.texto a:hover {
+color: white;    
+background-color: #011627;
+border: 2px solid #011627;
+transition: all 1s;
+border-width: 15px;
+}
+
+/*Texto Medio*/
+.textob{
+font-family: 'Bebas Neue', cursive;
+color: white;
+text-align: center;
+justify-content: flex-start;
+padding: 2px;
+font-size: 60px;
+flex-flow: column ;
+}
+
+/*Texto menor*/
+.textoc{
+font-family: 'Bebas Neue', cursive;
+color: white;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+justify-content: flex-start;
+padding: 2px;
+font-size: 30px;
+flex-flow: column ;
+}
+
+input[type=number] {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px solid #ae20ca;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    left: 25%; 
+    position: relative;
+    top: 25%; 
+  }
+  .caixa_outerinline{
+    text-align: center;
+    width: 50%;
+    padding: 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px solid #ae20ca;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    left: 25%; 
+    position: relative;
+    top: 0%; 
+    background-color: white;
+  }
+}
